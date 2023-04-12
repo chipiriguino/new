@@ -5,7 +5,7 @@ import Gif from "../assets/Home Video.mp4";
 const CoverVideo = () => {
   return (
     <VideoContainer>
-      <video src={Gif} type="video/mp4" autoPlay muted loop />
+      <video src={Gif} type="video/mp4" autoPlay muted loop playsInline/>
     </VideoContainer>
   );
 };

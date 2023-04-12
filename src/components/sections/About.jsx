@@ -13,8 +13,8 @@ const About = () => {
         </Box>
         <Box>
           <Title>
-            Welcome To The
-            <br /> Weirdos Club.
+            Esto es un titulo
+            <br /> más título
           </Title>
           <SubText>
             The WEIRDOS CLUB is a private collection of NFTs—unique digital

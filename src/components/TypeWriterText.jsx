@@ -7,7 +7,7 @@ const TypeWriterText = () => {
   return (
     <>
       <Title>
-        <p>Discover a new era of cool </p>
+        <p>Esto es un título</p>
         <Typewriter
           options={{
             autoStart: true,
@@ -15,20 +15,20 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString(`<span class="text-1">NFTs.</span>`)
+              .typeString(`<span class="text-1">Prueba</span>`)
               .pauseFor(2000)
               .deleteAll()
-              .typeString(`<span class="text-2">Collectibles.</span>`)
+              .typeString(`<span class="text-2">Prueba</span>`)
               .pauseFor(2000)
               .deleteAll()
-              .typeString(`<span class="text-3">Ape Killers!</span>`)
+              .typeString(`<span class="text-3">Prueba!</span>`)
               .pauseFor(2000)
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <Subtitle>Bored of Apes? Try Something New</Subtitle>
+      <Subtitle>Esto es un subtitulo</Subtitle>
       <ButtonContainer>
         <Button text="Explore" link="#about" />
       </ButtonContainer>
